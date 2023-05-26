@@ -2,7 +2,7 @@
   <div 
     v-if="popover"
     v-identity-popover="userIdentity"
-    class="profile-popover user-wrapper"
+    class="profile-popover user-wrapper newClass"
     :class="extraClass">
     <a 
       v-if="avatar"
